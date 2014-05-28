@@ -1,0 +1,107 @@
+{
+  "name": "contratos_publicos",
+  "title": "Contratos Públicos",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "PDDL-1.0",
+  "sources": [
+    {
+      "name": "Públicos.pt",
+      "web": "http://publicos.pt"
+    },
+    {
+      "name": "Base.gov.pt",
+      "web": "http://base.gov.pt"
+    },
+
+  ],
+  "resources": [
+    {
+      "name": "contracts",
+      "path": "data/contracts.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 96746544,
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "base_id",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "added_date",
+            "type": "date",
+            "description": ""
+          },
+          {
+            "name": "signing_date",
+            "type": "date",
+            "description": ""
+          },
+          {
+            "name": "close_date",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "contract_type_id",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "procedure_type_id",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "contract_description",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "cpvs",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "price",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "country_id",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "district_id",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "council_id",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "category_id",
+            "type": "number",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ],
+  "description": "Contratos públicos e outras adjudicações."
+}
